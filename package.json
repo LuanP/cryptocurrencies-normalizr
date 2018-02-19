@@ -1,0 +1,28 @@
+{
+  "name": "x-cryptocurrencies-normalizr",
+  "version": "1.0.0",
+  "description": "A normalizer for cryptocurrency symbols and pairs",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/x-data/x-cryptocurrencies-normalizr"
+  },
+  "keywords": [
+    "normalizer",
+    "cryptocurrency"
+  ],
+  "author": "Luan Pablo, Adriel Pereira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/x-data/x-cryptocurrencies-normalizr/issues"
+  },
+  "homepage": "https://gitlab.com/x-data/x-cryptocurrencies-normalizr#README",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "chalk": "^2.3.1",
+    "ramda": "^0.25.0"
+  }
+}
