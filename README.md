@@ -1,6 +1,13 @@
 Exchange Cryptocurrencies Normalizr
 ===================================
 
+[![build status]([build-svg])]([master-url])
+[![coverage]([coverage-svg])]([master-url])
+
+[build-svg]: https://gitlab.com/x-data/x-cryptocurrencies-normalizr/badges/master/build.svg
+[coverage-svg]: https://gitlab.com/x-data/x-cryptocurrencies-normalizr/badges/master/coverage.svg?job=coverage
+[master-url]: https://gitlab.com/x-data/x-cryptocurrencies-normalizr/commits/master
+
 A normalizer for cryptocurrency pairs and symbols
 
 With this library you can normalize a pair or a currency symbol
