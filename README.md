@@ -1,8 +1,8 @@
 Exchange Cryptocurrencies Normalizr
 ===================================
 
-[![build status]([build-svg])]([master-url])
-[![coverage]([coverage-svg])]([master-url])
+[![build status](build-svg)](master-url)
+[![coverage](coverage-svg)](master-url)
 
 [build-svg]: https://gitlab.com/x-data/x-cryptocurrencies-normalizr/badges/master/build.svg
 [coverage-svg]: https://gitlab.com/x-data/x-cryptocurrencies-normalizr/badges/master/coverage.svg?job=test
