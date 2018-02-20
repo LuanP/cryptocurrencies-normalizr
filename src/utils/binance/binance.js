@@ -2,7 +2,7 @@ const chalk = require('chalk')
 const fs = require('fs')
 const path = require('path')
 const axios = require('axios')
-const availableSymbols = require('./binanceSymbols')
+const availableSymbols = require('./symbols')
 
 const Binance = () => {}
 
@@ -13,7 +13,7 @@ Binance.downloadSymbols = async () => {
   const url = `${Binance.BASE_URL}${Binance.exchangeInfo}`
   let availableSymbols = []
 
-  return await axios.get(url)
+  return axios.get(url)
     .then((res) => {
       const symbols = res.data.symbols
 
@@ -42,11 +42,11 @@ Binance.downloadSymbols = async () => {
     })
 }
 
-Binance.downloadSymbols()
-  .then((data) => {
-    console.log(JSON.stringify(data, null, 2))
-  })
-  .catch((err) => {console.error(chalk.red(err))})
+// Binance.downloadSymbols()
+//   .then((data) => {
+//     console.log(JSON.stringify(data, null, 2))
+//   })
+//   .catch((err) => { console.error(chalk.red(err)) })
 
 Binance.load = () => {
   return availableSymbols

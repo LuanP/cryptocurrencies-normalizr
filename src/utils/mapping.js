@@ -3,14 +3,14 @@ const Mapping = () => {}
 Mapping.currencies = [
   {
     standard: 'BTC',
-    alternatives: ['BTC', 'XBC']
+    alternatives: ['BTC', 'XBT']
   },
   {
     standard: 'IOTA',
     alternatives: ['IOTA', 'MIOTA', 'IOT']
   },
   {
-    standard: 'BCC',
+    standard: 'BCH',
     alternatives: ['BCH', 'BCC', 'BCY']
   }
 ]

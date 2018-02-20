@@ -30,7 +30,7 @@ Normalizr.pair = (pair, delimiter, exchangeName) => {
 
   if (delimiter) {
     if (pair.indexOf(delimiter) <= -1) {
-      throw new Error (`The pair ${pair} does not contain the delimiter "${delimiter}"`)
+      throw new Error(`the pair ${pair} does not contain the delimiter "${delimiter}"`)
     }
 
     let assets = R.split(delimiter, pair)
@@ -42,10 +42,14 @@ Normalizr.pair = (pair, delimiter, exchangeName) => {
     if (exchangeName === 'binance') {
       const foundSymbol = R.find(R.propEq('symbol', pair))(binanceSymbols)
 
+      if (!foundSymbol) {
+        throw new Error(`the pair ${pair} does not exist in the exchange ${exchangeName}`)
+      }
+
       baseAsset = foundSymbol.baseAsset
       quoteAsset = foundSymbol.quoteAsset
     } else {
-      throw new Error('exchange not available')
+      throw new Error('exchange unavailable')
     }
   }
 
