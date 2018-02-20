@@ -1,12 +1,8 @@
 Exchange Cryptocurrencies Normalizr
 ===================================
 
-[![build status](build-svg)](master-url)
-[![coverage](coverage-svg)](master-url)
-
-[build-svg]: https://gitlab.com/x-data/x-cryptocurrencies-normalizr/badges/master/build.svg
-[coverage-svg]: https://gitlab.com/x-data/x-cryptocurrencies-normalizr/badges/master/coverage.svg?job=test
-[master-url]: https://gitlab.com/x-data/x-cryptocurrencies-normalizr/commits/master
+[![build status](https://gitlab.com/x-data/x-cryptocurrencies-normalizr/badges/master/build.svg)](https://gitlab.com/x-data/x-cryptocurrencies-normalizr/commits/master)
+[![coverage](https://gitlab.com/x-data/x-cryptocurrencies-normalizr/badges/master/coverage.svg?job=test)](https://gitlab.com/x-data/x-cryptocurrencies-normalizr/commits/master)
 
 A normalizer for cryptocurrency pairs and symbols
 
