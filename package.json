@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "test": "npm run lint && NODE_ENV=test nyc npm run test-mocha",
-    "test-mocha": "NODE_CONFIG_DIR=./src/config NODE_ENV=test mocha --harmony --exit ./src/**/*.spec.js",
+    "test-mocha": "NODE_ENV=test mocha --harmony --exit ./src/**/*.spec.js",
     "precommit": "npm run git-hook",
     "prepush": "npm run git-hook",
     "git-hook": "npm run lint -s && npm run test -s",
