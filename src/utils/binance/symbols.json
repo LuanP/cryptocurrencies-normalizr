@@ -1,0 +1,1342 @@
+[
+  {
+    "baseAsset": "ETH",
+    "quoteAsset": "BTC",
+    "symbol": "ETHBTC"
+  },
+  {
+    "baseAsset": "LTC",
+    "quoteAsset": "BTC",
+    "symbol": "LTCBTC"
+  },
+  {
+    "baseAsset": "BNB",
+    "quoteAsset": "BTC",
+    "symbol": "BNBBTC"
+  },
+  {
+    "baseAsset": "NEO",
+    "quoteAsset": "BTC",
+    "symbol": "NEOBTC"
+  },
+  {
+    "baseAsset": "123",
+    "quoteAsset": "456",
+    "symbol": "123456"
+  },
+  {
+    "baseAsset": "QTUM",
+    "quoteAsset": "ETH",
+    "symbol": "QTUMETH"
+  },
+  {
+    "baseAsset": "EOS",
+    "quoteAsset": "ETH",
+    "symbol": "EOSETH"
+  },
+  {
+    "baseAsset": "SNT",
+    "quoteAsset": "ETH",
+    "symbol": "SNTETH"
+  },
+  {
+    "baseAsset": "BNT",
+    "quoteAsset": "ETH",
+    "symbol": "BNTETH"
+  },
+  {
+    "baseAsset": "BCC",
+    "quoteAsset": "BTC",
+    "symbol": "BCCBTC"
+  },
+  {
+    "baseAsset": "GAS",
+    "quoteAsset": "BTC",
+    "symbol": "GASBTC"
+  },
+  {
+    "baseAsset": "BNB",
+    "quoteAsset": "ETH",
+    "symbol": "BNBETH"
+  },
+  {
+    "baseAsset": "BTC",
+    "quoteAsset": "USDT",
+    "symbol": "BTCUSDT"
+  },
+  {
+    "baseAsset": "ETH",
+    "quoteAsset": "USDT",
+    "symbol": "ETHUSDT"
+  },
+  {
+    "baseAsset": "HSR",
+    "quoteAsset": "BTC",
+    "symbol": "HSRBTC"
+  },
+  {
+    "baseAsset": "OAX",
+    "quoteAsset": "ETH",
+    "symbol": "OAXETH"
+  },
+  {
+    "baseAsset": "DNT",
+    "quoteAsset": "ETH",
+    "symbol": "DNTETH"
+  },
+  {
+    "baseAsset": "MCO",
+    "quoteAsset": "ETH",
+    "symbol": "MCOETH"
+  },
+  {
+    "baseAsset": "ICN",
+    "quoteAsset": "ETH",
+    "symbol": "ICNETH"
+  },
+  {
+    "baseAsset": "MCO",
+    "quoteAsset": "BTC",
+    "symbol": "MCOBTC"
+  },
+  {
+    "baseAsset": "WTC",
+    "quoteAsset": "BTC",
+    "symbol": "WTCBTC"
+  },
+  {
+    "baseAsset": "WTC",
+    "quoteAsset": "ETH",
+    "symbol": "WTCETH"
+  },
+  {
+    "baseAsset": "LRC",
+    "quoteAsset": "BTC",
+    "symbol": "LRCBTC"
+  },
+  {
+    "baseAsset": "LRC",
+    "quoteAsset": "ETH",
+    "symbol": "LRCETH"
+  },
+  {
+    "baseAsset": "QTUM",
+    "quoteAsset": "BTC",
+    "symbol": "QTUMBTC"
+  },
+  {
+    "baseAsset": "YOYO",
+    "quoteAsset": "BTC",
+    "symbol": "YOYOBTC"
+  },
+  {
+    "baseAsset": "OMG",
+    "quoteAsset": "BTC",
+    "symbol": "OMGBTC"
+  },
+  {
+    "baseAsset": "OMG",
+    "quoteAsset": "ETH",
+    "symbol": "OMGETH"
+  },
+  {
+    "baseAsset": "ZRX",
+    "quoteAsset": "BTC",
+    "symbol": "ZRXBTC"
+  },
+  {
+    "baseAsset": "ZRX",
+    "quoteAsset": "ETH",
+    "symbol": "ZRXETH"
+  },
+  {
+    "baseAsset": "STRAT",
+    "quoteAsset": "BTC",
+    "symbol": "STRATBTC"
+  },
+  {
+    "baseAsset": "STRAT",
+    "quoteAsset": "ETH",
+    "symbol": "STRATETH"
+  },
+  {
+    "baseAsset": "SNGLS",
+    "quoteAsset": "BTC",
+    "symbol": "SNGLSBTC"
+  },
+  {
+    "baseAsset": "SNGLS",
+    "quoteAsset": "ETH",
+    "symbol": "SNGLSETH"
+  },
+  {
+    "baseAsset": "BQX",
+    "quoteAsset": "BTC",
+    "symbol": "BQXBTC"
+  },
+  {
+    "baseAsset": "BQX",
+    "quoteAsset": "ETH",
+    "symbol": "BQXETH"
+  },
+  {
+    "baseAsset": "KNC",
+    "quoteAsset": "BTC",
+    "symbol": "KNCBTC"
+  },
+  {
+    "baseAsset": "KNC",
+    "quoteAsset": "ETH",
+    "symbol": "KNCETH"
+  },
+  {
+    "baseAsset": "FUN",
+    "quoteAsset": "BTC",
+    "symbol": "FUNBTC"
+  },
+  {
+    "baseAsset": "FUN",
+    "quoteAsset": "ETH",
+    "symbol": "FUNETH"
+  },
+  {
+    "baseAsset": "SNM",
+    "quoteAsset": "BTC",
+    "symbol": "SNMBTC"
+  },
+  {
+    "baseAsset": "SNM",
+    "quoteAsset": "ETH",
+    "symbol": "SNMETH"
+  },
+  {
+    "baseAsset": "NEO",
+    "quoteAsset": "ETH",
+    "symbol": "NEOETH"
+  },
+  {
+    "baseAsset": "IOTA",
+    "quoteAsset": "BTC",
+    "symbol": "IOTABTC"
+  },
+  {
+    "baseAsset": "IOTA",
+    "quoteAsset": "ETH",
+    "symbol": "IOTAETH"
+  },
+  {
+    "baseAsset": "LINK",
+    "quoteAsset": "BTC",
+    "symbol": "LINKBTC"
+  },
+  {
+    "baseAsset": "LINK",
+    "quoteAsset": "ETH",
+    "symbol": "LINKETH"
+  },
+  {
+    "baseAsset": "XVG",
+    "quoteAsset": "BTC",
+    "symbol": "XVGBTC"
+  },
+  {
+    "baseAsset": "XVG",
+    "quoteAsset": "ETH",
+    "symbol": "XVGETH"
+  },
+  {
+    "baseAsset": "CTR",
+    "quoteAsset": "BTC",
+    "symbol": "CTRBTC"
+  },
+  {
+    "baseAsset": "CTR",
+    "quoteAsset": "ETH",
+    "symbol": "CTRETH"
+  },
+  {
+    "baseAsset": "SALT",
+    "quoteAsset": "BTC",
+    "symbol": "SALTBTC"
+  },
+  {
+    "baseAsset": "SALT",
+    "quoteAsset": "ETH",
+    "symbol": "SALTETH"
+  },
+  {
+    "baseAsset": "MDA",
+    "quoteAsset": "BTC",
+    "symbol": "MDABTC"
+  },
+  {
+    "baseAsset": "MDA",
+    "quoteAsset": "ETH",
+    "symbol": "MDAETH"
+  },
+  {
+    "baseAsset": "MTL",
+    "quoteAsset": "BTC",
+    "symbol": "MTLBTC"
+  },
+  {
+    "baseAsset": "MTL",
+    "quoteAsset": "ETH",
+    "symbol": "MTLETH"
+  },
+  {
+    "baseAsset": "SUB",
+    "quoteAsset": "BTC",
+    "symbol": "SUBBTC"
+  },
+  {
+    "baseAsset": "SUB",
+    "quoteAsset": "ETH",
+    "symbol": "SUBETH"
+  },
+  {
+    "baseAsset": "EOS",
+    "quoteAsset": "BTC",
+    "symbol": "EOSBTC"
+  },
+  {
+    "baseAsset": "SNT",
+    "quoteAsset": "BTC",
+    "symbol": "SNTBTC"
+  },
+  {
+    "baseAsset": "ETC",
+    "quoteAsset": "ETH",
+    "symbol": "ETCETH"
+  },
+  {
+    "baseAsset": "ETC",
+    "quoteAsset": "BTC",
+    "symbol": "ETCBTC"
+  },
+  {
+    "baseAsset": "MTH",
+    "quoteAsset": "BTC",
+    "symbol": "MTHBTC"
+  },
+  {
+    "baseAsset": "MTH",
+    "quoteAsset": "ETH",
+    "symbol": "MTHETH"
+  },
+  {
+    "baseAsset": "ENG",
+    "quoteAsset": "BTC",
+    "symbol": "ENGBTC"
+  },
+  {
+    "baseAsset": "ENG",
+    "quoteAsset": "ETH",
+    "symbol": "ENGETH"
+  },
+  {
+    "baseAsset": "DNT",
+    "quoteAsset": "BTC",
+    "symbol": "DNTBTC"
+  },
+  {
+    "baseAsset": "ZEC",
+    "quoteAsset": "BTC",
+    "symbol": "ZECBTC"
+  },
+  {
+    "baseAsset": "ZEC",
+    "quoteAsset": "ETH",
+    "symbol": "ZECETH"
+  },
+  {
+    "baseAsset": "BNT",
+    "quoteAsset": "BTC",
+    "symbol": "BNTBTC"
+  },
+  {
+    "baseAsset": "AST",
+    "quoteAsset": "BTC",
+    "symbol": "ASTBTC"
+  },
+  {
+    "baseAsset": "AST",
+    "quoteAsset": "ETH",
+    "symbol": "ASTETH"
+  },
+  {
+    "baseAsset": "DASH",
+    "quoteAsset": "BTC",
+    "symbol": "DASHBTC"
+  },
+  {
+    "baseAsset": "DASH",
+    "quoteAsset": "ETH",
+    "symbol": "DASHETH"
+  },
+  {
+    "baseAsset": "OAX",
+    "quoteAsset": "BTC",
+    "symbol": "OAXBTC"
+  },
+  {
+    "baseAsset": "ICN",
+    "quoteAsset": "BTC",
+    "symbol": "ICNBTC"
+  },
+  {
+    "baseAsset": "BTG",
+    "quoteAsset": "BTC",
+    "symbol": "BTGBTC"
+  },
+  {
+    "baseAsset": "BTG",
+    "quoteAsset": "ETH",
+    "symbol": "BTGETH"
+  },
+  {
+    "baseAsset": "EVX",
+    "quoteAsset": "BTC",
+    "symbol": "EVXBTC"
+  },
+  {
+    "baseAsset": "EVX",
+    "quoteAsset": "ETH",
+    "symbol": "EVXETH"
+  },
+  {
+    "baseAsset": "REQ",
+    "quoteAsset": "BTC",
+    "symbol": "REQBTC"
+  },
+  {
+    "baseAsset": "REQ",
+    "quoteAsset": "ETH",
+    "symbol": "REQETH"
+  },
+  {
+    "baseAsset": "VIB",
+    "quoteAsset": "BTC",
+    "symbol": "VIBBTC"
+  },
+  {
+    "baseAsset": "VIB",
+    "quoteAsset": "ETH",
+    "symbol": "VIBETH"
+  },
+  {
+    "baseAsset": "HSR",
+    "quoteAsset": "ETH",
+    "symbol": "HSRETH"
+  },
+  {
+    "baseAsset": "TRX",
+    "quoteAsset": "BTC",
+    "symbol": "TRXBTC"
+  },
+  {
+    "baseAsset": "TRX",
+    "quoteAsset": "ETH",
+    "symbol": "TRXETH"
+  },
+  {
+    "baseAsset": "POWR",
+    "quoteAsset": "BTC",
+    "symbol": "POWRBTC"
+  },
+  {
+    "baseAsset": "POWR",
+    "quoteAsset": "ETH",
+    "symbol": "POWRETH"
+  },
+  {
+    "baseAsset": "ARK",
+    "quoteAsset": "BTC",
+    "symbol": "ARKBTC"
+  },
+  {
+    "baseAsset": "ARK",
+    "quoteAsset": "ETH",
+    "symbol": "ARKETH"
+  },
+  {
+    "baseAsset": "YOYO",
+    "quoteAsset": "ETH",
+    "symbol": "YOYOETH"
+  },
+  {
+    "baseAsset": "XRP",
+    "quoteAsset": "BTC",
+    "symbol": "XRPBTC"
+  },
+  {
+    "baseAsset": "XRP",
+    "quoteAsset": "ETH",
+    "symbol": "XRPETH"
+  },
+  {
+    "baseAsset": "MOD",
+    "quoteAsset": "BTC",
+    "symbol": "MODBTC"
+  },
+  {
+    "baseAsset": "MOD",
+    "quoteAsset": "ETH",
+    "symbol": "MODETH"
+  },
+  {
+    "baseAsset": "ENJ",
+    "quoteAsset": "BTC",
+    "symbol": "ENJBTC"
+  },
+  {
+    "baseAsset": "ENJ",
+    "quoteAsset": "ETH",
+    "symbol": "ENJETH"
+  },
+  {
+    "baseAsset": "STORJ",
+    "quoteAsset": "BTC",
+    "symbol": "STORJBTC"
+  },
+  {
+    "baseAsset": "STORJ",
+    "quoteAsset": "ETH",
+    "symbol": "STORJETH"
+  },
+  {
+    "baseAsset": "BNB",
+    "quoteAsset": "USDT",
+    "symbol": "BNBUSDT"
+  },
+  {
+    "baseAsset": "VEN",
+    "quoteAsset": "BNB",
+    "symbol": "VENBNB"
+  },
+  {
+    "baseAsset": "YOYO",
+    "quoteAsset": "BNB",
+    "symbol": "YOYOBNB"
+  },
+  {
+    "baseAsset": "POWR",
+    "quoteAsset": "BNB",
+    "symbol": "POWRBNB"
+  },
+  {
+    "baseAsset": "VEN",
+    "quoteAsset": "BTC",
+    "symbol": "VENBTC"
+  },
+  {
+    "baseAsset": "VEN",
+    "quoteAsset": "ETH",
+    "symbol": "VENETH"
+  },
+  {
+    "baseAsset": "KMD",
+    "quoteAsset": "BTC",
+    "symbol": "KMDBTC"
+  },
+  {
+    "baseAsset": "KMD",
+    "quoteAsset": "ETH",
+    "symbol": "KMDETH"
+  },
+  {
+    "baseAsset": "NULS",
+    "quoteAsset": "BNB",
+    "symbol": "NULSBNB"
+  },
+  {
+    "baseAsset": "RCN",
+    "quoteAsset": "BTC",
+    "symbol": "RCNBTC"
+  },
+  {
+    "baseAsset": "RCN",
+    "quoteAsset": "ETH",
+    "symbol": "RCNETH"
+  },
+  {
+    "baseAsset": "RCN",
+    "quoteAsset": "BNB",
+    "symbol": "RCNBNB"
+  },
+  {
+    "baseAsset": "NULS",
+    "quoteAsset": "BTC",
+    "symbol": "NULSBTC"
+  },
+  {
+    "baseAsset": "NULS",
+    "quoteAsset": "ETH",
+    "symbol": "NULSETH"
+  },
+  {
+    "baseAsset": "RDN",
+    "quoteAsset": "BTC",
+    "symbol": "RDNBTC"
+  },
+  {
+    "baseAsset": "RDN",
+    "quoteAsset": "ETH",
+    "symbol": "RDNETH"
+  },
+  {
+    "baseAsset": "RDN",
+    "quoteAsset": "BNB",
+    "symbol": "RDNBNB"
+  },
+  {
+    "baseAsset": "XMR",
+    "quoteAsset": "BTC",
+    "symbol": "XMRBTC"
+  },
+  {
+    "baseAsset": "XMR",
+    "quoteAsset": "ETH",
+    "symbol": "XMRETH"
+  },
+  {
+    "baseAsset": "DLT",
+    "quoteAsset": "BNB",
+    "symbol": "DLTBNB"
+  },
+  {
+    "baseAsset": "WTC",
+    "quoteAsset": "BNB",
+    "symbol": "WTCBNB"
+  },
+  {
+    "baseAsset": "DLT",
+    "quoteAsset": "BTC",
+    "symbol": "DLTBTC"
+  },
+  {
+    "baseAsset": "DLT",
+    "quoteAsset": "ETH",
+    "symbol": "DLTETH"
+  },
+  {
+    "baseAsset": "AMB",
+    "quoteAsset": "BTC",
+    "symbol": "AMBBTC"
+  },
+  {
+    "baseAsset": "AMB",
+    "quoteAsset": "ETH",
+    "symbol": "AMBETH"
+  },
+  {
+    "baseAsset": "AMB",
+    "quoteAsset": "BNB",
+    "symbol": "AMBBNB"
+  },
+  {
+    "baseAsset": "BCC",
+    "quoteAsset": "ETH",
+    "symbol": "BCCETH"
+  },
+  {
+    "baseAsset": "BCC",
+    "quoteAsset": "USDT",
+    "symbol": "BCCUSDT"
+  },
+  {
+    "baseAsset": "BCC",
+    "quoteAsset": "BNB",
+    "symbol": "BCCBNB"
+  },
+  {
+    "baseAsset": "BAT",
+    "quoteAsset": "BTC",
+    "symbol": "BATBTC"
+  },
+  {
+    "baseAsset": "BAT",
+    "quoteAsset": "ETH",
+    "symbol": "BATETH"
+  },
+  {
+    "baseAsset": "BAT",
+    "quoteAsset": "BNB",
+    "symbol": "BATBNB"
+  },
+  {
+    "baseAsset": "BCPT",
+    "quoteAsset": "BTC",
+    "symbol": "BCPTBTC"
+  },
+  {
+    "baseAsset": "BCPT",
+    "quoteAsset": "ETH",
+    "symbol": "BCPTETH"
+  },
+  {
+    "baseAsset": "BCPT",
+    "quoteAsset": "BNB",
+    "symbol": "BCPTBNB"
+  },
+  {
+    "baseAsset": "ARN",
+    "quoteAsset": "BTC",
+    "symbol": "ARNBTC"
+  },
+  {
+    "baseAsset": "ARN",
+    "quoteAsset": "ETH",
+    "symbol": "ARNETH"
+  },
+  {
+    "baseAsset": "GVT",
+    "quoteAsset": "BTC",
+    "symbol": "GVTBTC"
+  },
+  {
+    "baseAsset": "GVT",
+    "quoteAsset": "ETH",
+    "symbol": "GVTETH"
+  },
+  {
+    "baseAsset": "CDT",
+    "quoteAsset": "BTC",
+    "symbol": "CDTBTC"
+  },
+  {
+    "baseAsset": "CDT",
+    "quoteAsset": "ETH",
+    "symbol": "CDTETH"
+  },
+  {
+    "baseAsset": "GXS",
+    "quoteAsset": "BTC",
+    "symbol": "GXSBTC"
+  },
+  {
+    "baseAsset": "GXS",
+    "quoteAsset": "ETH",
+    "symbol": "GXSETH"
+  },
+  {
+    "baseAsset": "NEO",
+    "quoteAsset": "USDT",
+    "symbol": "NEOUSDT"
+  },
+  {
+    "baseAsset": "NEO",
+    "quoteAsset": "BNB",
+    "symbol": "NEOBNB"
+  },
+  {
+    "baseAsset": "POE",
+    "quoteAsset": "BTC",
+    "symbol": "POEBTC"
+  },
+  {
+    "baseAsset": "POE",
+    "quoteAsset": "ETH",
+    "symbol": "POEETH"
+  },
+  {
+    "baseAsset": "QSP",
+    "quoteAsset": "BTC",
+    "symbol": "QSPBTC"
+  },
+  {
+    "baseAsset": "QSP",
+    "quoteAsset": "ETH",
+    "symbol": "QSPETH"
+  },
+  {
+    "baseAsset": "QSP",
+    "quoteAsset": "BNB",
+    "symbol": "QSPBNB"
+  },
+  {
+    "baseAsset": "BTS",
+    "quoteAsset": "BTC",
+    "symbol": "BTSBTC"
+  },
+  {
+    "baseAsset": "BTS",
+    "quoteAsset": "ETH",
+    "symbol": "BTSETH"
+  },
+  {
+    "baseAsset": "BTS",
+    "quoteAsset": "BNB",
+    "symbol": "BTSBNB"
+  },
+  {
+    "baseAsset": "XZC",
+    "quoteAsset": "BTC",
+    "symbol": "XZCBTC"
+  },
+  {
+    "baseAsset": "XZC",
+    "quoteAsset": "ETH",
+    "symbol": "XZCETH"
+  },
+  {
+    "baseAsset": "XZC",
+    "quoteAsset": "BNB",
+    "symbol": "XZCBNB"
+  },
+  {
+    "baseAsset": "LSK",
+    "quoteAsset": "BTC",
+    "symbol": "LSKBTC"
+  },
+  {
+    "baseAsset": "LSK",
+    "quoteAsset": "ETH",
+    "symbol": "LSKETH"
+  },
+  {
+    "baseAsset": "LSK",
+    "quoteAsset": "BNB",
+    "symbol": "LSKBNB"
+  },
+  {
+    "baseAsset": "TNT",
+    "quoteAsset": "BTC",
+    "symbol": "TNTBTC"
+  },
+  {
+    "baseAsset": "TNT",
+    "quoteAsset": "ETH",
+    "symbol": "TNTETH"
+  },
+  {
+    "baseAsset": "FUEL",
+    "quoteAsset": "BTC",
+    "symbol": "FUELBTC"
+  },
+  {
+    "baseAsset": "FUEL",
+    "quoteAsset": "ETH",
+    "symbol": "FUELETH"
+  },
+  {
+    "baseAsset": "MANA",
+    "quoteAsset": "BTC",
+    "symbol": "MANABTC"
+  },
+  {
+    "baseAsset": "MANA",
+    "quoteAsset": "ETH",
+    "symbol": "MANAETH"
+  },
+  {
+    "baseAsset": "BCD",
+    "quoteAsset": "BTC",
+    "symbol": "BCDBTC"
+  },
+  {
+    "baseAsset": "BCD",
+    "quoteAsset": "ETH",
+    "symbol": "BCDETH"
+  },
+  {
+    "baseAsset": "DGD",
+    "quoteAsset": "BTC",
+    "symbol": "DGDBTC"
+  },
+  {
+    "baseAsset": "DGD",
+    "quoteAsset": "ETH",
+    "symbol": "DGDETH"
+  },
+  {
+    "baseAsset": "IOTA",
+    "quoteAsset": "BNB",
+    "symbol": "IOTABNB"
+  },
+  {
+    "baseAsset": "ADX",
+    "quoteAsset": "BTC",
+    "symbol": "ADXBTC"
+  },
+  {
+    "baseAsset": "ADX",
+    "quoteAsset": "ETH",
+    "symbol": "ADXETH"
+  },
+  {
+    "baseAsset": "ADX",
+    "quoteAsset": "BNB",
+    "symbol": "ADXBNB"
+  },
+  {
+    "baseAsset": "ADA",
+    "quoteAsset": "BTC",
+    "symbol": "ADABTC"
+  },
+  {
+    "baseAsset": "ADA",
+    "quoteAsset": "ETH",
+    "symbol": "ADAETH"
+  },
+  {
+    "baseAsset": "PPT",
+    "quoteAsset": "BTC",
+    "symbol": "PPTBTC"
+  },
+  {
+    "baseAsset": "PPT",
+    "quoteAsset": "ETH",
+    "symbol": "PPTETH"
+  },
+  {
+    "baseAsset": "CMT",
+    "quoteAsset": "BTC",
+    "symbol": "CMTBTC"
+  },
+  {
+    "baseAsset": "CMT",
+    "quoteAsset": "ETH",
+    "symbol": "CMTETH"
+  },
+  {
+    "baseAsset": "CMT",
+    "quoteAsset": "BNB",
+    "symbol": "CMTBNB"
+  },
+  {
+    "baseAsset": "XLM",
+    "quoteAsset": "BTC",
+    "symbol": "XLMBTC"
+  },
+  {
+    "baseAsset": "XLM",
+    "quoteAsset": "ETH",
+    "symbol": "XLMETH"
+  },
+  {
+    "baseAsset": "XLM",
+    "quoteAsset": "BNB",
+    "symbol": "XLMBNB"
+  },
+  {
+    "baseAsset": "CND",
+    "quoteAsset": "BTC",
+    "symbol": "CNDBTC"
+  },
+  {
+    "baseAsset": "CND",
+    "quoteAsset": "ETH",
+    "symbol": "CNDETH"
+  },
+  {
+    "baseAsset": "CND",
+    "quoteAsset": "BNB",
+    "symbol": "CNDBNB"
+  },
+  {
+    "baseAsset": "LEND",
+    "quoteAsset": "BTC",
+    "symbol": "LENDBTC"
+  },
+  {
+    "baseAsset": "LEND",
+    "quoteAsset": "ETH",
+    "symbol": "LENDETH"
+  },
+  {
+    "baseAsset": "WABI",
+    "quoteAsset": "BTC",
+    "symbol": "WABIBTC"
+  },
+  {
+    "baseAsset": "WABI",
+    "quoteAsset": "ETH",
+    "symbol": "WABIETH"
+  },
+  {
+    "baseAsset": "WABI",
+    "quoteAsset": "BNB",
+    "symbol": "WABIBNB"
+  },
+  {
+    "baseAsset": "LTC",
+    "quoteAsset": "ETH",
+    "symbol": "LTCETH"
+  },
+  {
+    "baseAsset": "LTC",
+    "quoteAsset": "USDT",
+    "symbol": "LTCUSDT"
+  },
+  {
+    "baseAsset": "LTC",
+    "quoteAsset": "BNB",
+    "symbol": "LTCBNB"
+  },
+  {
+    "baseAsset": "TNB",
+    "quoteAsset": "BTC",
+    "symbol": "TNBBTC"
+  },
+  {
+    "baseAsset": "TNB",
+    "quoteAsset": "ETH",
+    "symbol": "TNBETH"
+  },
+  {
+    "baseAsset": "WAVES",
+    "quoteAsset": "BTC",
+    "symbol": "WAVESBTC"
+  },
+  {
+    "baseAsset": "WAVES",
+    "quoteAsset": "ETH",
+    "symbol": "WAVESETH"
+  },
+  {
+    "baseAsset": "WAVES",
+    "quoteAsset": "BNB",
+    "symbol": "WAVESBNB"
+  },
+  {
+    "baseAsset": "GTO",
+    "quoteAsset": "BTC",
+    "symbol": "GTOBTC"
+  },
+  {
+    "baseAsset": "GTO",
+    "quoteAsset": "ETH",
+    "symbol": "GTOETH"
+  },
+  {
+    "baseAsset": "GTO",
+    "quoteAsset": "BNB",
+    "symbol": "GTOBNB"
+  },
+  {
+    "baseAsset": "ICX",
+    "quoteAsset": "BTC",
+    "symbol": "ICXBTC"
+  },
+  {
+    "baseAsset": "ICX",
+    "quoteAsset": "ETH",
+    "symbol": "ICXETH"
+  },
+  {
+    "baseAsset": "ICX",
+    "quoteAsset": "BNB",
+    "symbol": "ICXBNB"
+  },
+  {
+    "baseAsset": "OST",
+    "quoteAsset": "BTC",
+    "symbol": "OSTBTC"
+  },
+  {
+    "baseAsset": "OST",
+    "quoteAsset": "ETH",
+    "symbol": "OSTETH"
+  },
+  {
+    "baseAsset": "OST",
+    "quoteAsset": "BNB",
+    "symbol": "OSTBNB"
+  },
+  {
+    "baseAsset": "ELF",
+    "quoteAsset": "BTC",
+    "symbol": "ELFBTC"
+  },
+  {
+    "baseAsset": "ELF",
+    "quoteAsset": "ETH",
+    "symbol": "ELFETH"
+  },
+  {
+    "baseAsset": "AION",
+    "quoteAsset": "BTC",
+    "symbol": "AIONBTC"
+  },
+  {
+    "baseAsset": "AION",
+    "quoteAsset": "ETH",
+    "symbol": "AIONETH"
+  },
+  {
+    "baseAsset": "AION",
+    "quoteAsset": "BNB",
+    "symbol": "AIONBNB"
+  },
+  {
+    "baseAsset": "NEBL",
+    "quoteAsset": "BTC",
+    "symbol": "NEBLBTC"
+  },
+  {
+    "baseAsset": "NEBL",
+    "quoteAsset": "ETH",
+    "symbol": "NEBLETH"
+  },
+  {
+    "baseAsset": "NEBL",
+    "quoteAsset": "BNB",
+    "symbol": "NEBLBNB"
+  },
+  {
+    "baseAsset": "BRD",
+    "quoteAsset": "BTC",
+    "symbol": "BRDBTC"
+  },
+  {
+    "baseAsset": "BRD",
+    "quoteAsset": "ETH",
+    "symbol": "BRDETH"
+  },
+  {
+    "baseAsset": "BRD",
+    "quoteAsset": "BNB",
+    "symbol": "BRDBNB"
+  },
+  {
+    "baseAsset": "MCO",
+    "quoteAsset": "BNB",
+    "symbol": "MCOBNB"
+  },
+  {
+    "baseAsset": "EDO",
+    "quoteAsset": "BTC",
+    "symbol": "EDOBTC"
+  },
+  {
+    "baseAsset": "EDO",
+    "quoteAsset": "ETH",
+    "symbol": "EDOETH"
+  },
+  {
+    "baseAsset": "WINGS",
+    "quoteAsset": "BTC",
+    "symbol": "WINGSBTC"
+  },
+  {
+    "baseAsset": "WINGS",
+    "quoteAsset": "ETH",
+    "symbol": "WINGSETH"
+  },
+  {
+    "baseAsset": "NAV",
+    "quoteAsset": "BTC",
+    "symbol": "NAVBTC"
+  },
+  {
+    "baseAsset": "NAV",
+    "quoteAsset": "ETH",
+    "symbol": "NAVETH"
+  },
+  {
+    "baseAsset": "NAV",
+    "quoteAsset": "BNB",
+    "symbol": "NAVBNB"
+  },
+  {
+    "baseAsset": "LUN",
+    "quoteAsset": "BTC",
+    "symbol": "LUNBTC"
+  },
+  {
+    "baseAsset": "LUN",
+    "quoteAsset": "ETH",
+    "symbol": "LUNETH"
+  },
+  {
+    "baseAsset": "TRIG",
+    "quoteAsset": "BTC",
+    "symbol": "TRIGBTC"
+  },
+  {
+    "baseAsset": "TRIG",
+    "quoteAsset": "ETH",
+    "symbol": "TRIGETH"
+  },
+  {
+    "baseAsset": "TRIG",
+    "quoteAsset": "BNB",
+    "symbol": "TRIGBNB"
+  },
+  {
+    "baseAsset": "APPC",
+    "quoteAsset": "BTC",
+    "symbol": "APPCBTC"
+  },
+  {
+    "baseAsset": "APPC",
+    "quoteAsset": "ETH",
+    "symbol": "APPCETH"
+  },
+  {
+    "baseAsset": "APPC",
+    "quoteAsset": "BNB",
+    "symbol": "APPCBNB"
+  },
+  {
+    "baseAsset": "VIBE",
+    "quoteAsset": "BTC",
+    "symbol": "VIBEBTC"
+  },
+  {
+    "baseAsset": "VIBE",
+    "quoteAsset": "ETH",
+    "symbol": "VIBEETH"
+  },
+  {
+    "baseAsset": "RLC",
+    "quoteAsset": "BTC",
+    "symbol": "RLCBTC"
+  },
+  {
+    "baseAsset": "RLC",
+    "quoteAsset": "ETH",
+    "symbol": "RLCETH"
+  },
+  {
+    "baseAsset": "RLC",
+    "quoteAsset": "BNB",
+    "symbol": "RLCBNB"
+  },
+  {
+    "baseAsset": "INS",
+    "quoteAsset": "BTC",
+    "symbol": "INSBTC"
+  },
+  {
+    "baseAsset": "INS",
+    "quoteAsset": "ETH",
+    "symbol": "INSETH"
+  },
+  {
+    "baseAsset": "PIVX",
+    "quoteAsset": "BTC",
+    "symbol": "PIVXBTC"
+  },
+  {
+    "baseAsset": "PIVX",
+    "quoteAsset": "ETH",
+    "symbol": "PIVXETH"
+  },
+  {
+    "baseAsset": "PIVX",
+    "quoteAsset": "BNB",
+    "symbol": "PIVXBNB"
+  },
+  {
+    "baseAsset": "IOST",
+    "quoteAsset": "BTC",
+    "symbol": "IOSTBTC"
+  },
+  {
+    "baseAsset": "IOST",
+    "quoteAsset": "ETH",
+    "symbol": "IOSTETH"
+  },
+  {
+    "baseAsset": "CHAT",
+    "quoteAsset": "BTC",
+    "symbol": "CHATBTC"
+  },
+  {
+    "baseAsset": "CHAT",
+    "quoteAsset": "ETH",
+    "symbol": "CHATETH"
+  },
+  {
+    "baseAsset": "STEEM",
+    "quoteAsset": "BTC",
+    "symbol": "STEEMBTC"
+  },
+  {
+    "baseAsset": "STEEM",
+    "quoteAsset": "ETH",
+    "symbol": "STEEMETH"
+  },
+  {
+    "baseAsset": "STEEM",
+    "quoteAsset": "BNB",
+    "symbol": "STEEMBNB"
+  },
+  {
+    "baseAsset": "NANO",
+    "quoteAsset": "BTC",
+    "symbol": "NANOBTC"
+  },
+  {
+    "baseAsset": "NANO",
+    "quoteAsset": "ETH",
+    "symbol": "NANOETH"
+  },
+  {
+    "baseAsset": "NANO",
+    "quoteAsset": "BNB",
+    "symbol": "NANOBNB"
+  },
+  {
+    "baseAsset": "VIA",
+    "quoteAsset": "BTC",
+    "symbol": "VIABTC"
+  },
+  {
+    "baseAsset": "VIA",
+    "quoteAsset": "ETH",
+    "symbol": "VIAETH"
+  },
+  {
+    "baseAsset": "VIA",
+    "quoteAsset": "BNB",
+    "symbol": "VIABNB"
+  },
+  {
+    "baseAsset": "BLZ",
+    "quoteAsset": "BTC",
+    "symbol": "BLZBTC"
+  },
+  {
+    "baseAsset": "BLZ",
+    "quoteAsset": "ETH",
+    "symbol": "BLZETH"
+  },
+  {
+    "baseAsset": "BLZ",
+    "quoteAsset": "BNB",
+    "symbol": "BLZBNB"
+  },
+  {
+    "baseAsset": "AE",
+    "quoteAsset": "BTC",
+    "symbol": "AEBTC"
+  },
+  {
+    "baseAsset": "AE",
+    "quoteAsset": "ETH",
+    "symbol": "AEETH"
+  },
+  {
+    "baseAsset": "AE",
+    "quoteAsset": "BNB",
+    "symbol": "AEBNB"
+  },
+  {
+    "baseAsset": "RPX",
+    "quoteAsset": "BTC",
+    "symbol": "RPXBTC"
+  },
+  {
+    "baseAsset": "RPX",
+    "quoteAsset": "ETH",
+    "symbol": "RPXETH"
+  },
+  {
+    "baseAsset": "RPX",
+    "quoteAsset": "BNB",
+    "symbol": "RPXBNB"
+  }
+]
