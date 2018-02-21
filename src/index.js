@@ -1,6 +1,7 @@
 const R = require('ramda')
 
 const mapping = require('./utils/mapping')
+const binance = require('./utils/binance/binance')
 const binanceSymbols = require('./utils/binance/symbols')
 
 const Normalizr = () => {
@@ -67,15 +68,77 @@ Normalizr.currency = (currency) => {
   let standard = currency
 
   for (let i = 0; i < mapping.currencies.length; i++) {
-    let currentCoin = mapping.currencies[i]
+    let currentCurrency = mapping.currencies[i]
 
-    if (R.contains(currency, currentCoin.alternatives)) {
-      standard = currentCoin.standard
+    if (R.contains(currency, currentCurrency.alternatives)) {
+      standard = currentCurrency.standard
       break
     }
   }
 
   return standard
+}
+
+Normalizr.denormalize = () => {}
+
+Normalizr.denormalize._currency = (currency) => {
+  /*
+   * it resolves with the currency alternatives
+  * */
+  let alternatives = [currency]
+
+  for (let i = 0; i < mapping.currencies.length; i++) {
+    let currentCurrency = mapping.currencies[i]
+
+    if (R.contains(currency, currentCurrency.alternatives)) {
+      alternatives = currentCurrency.alternatives
+      break
+    }
+  }
+
+  return alternatives
+}
+
+Normalizr.denormalize.pair = (pair, exchangeName) => {
+  if (!exchangeName) {
+    throw new Error('impossible to denormalize without exchange name')
+  }
+
+  let pairList = R.split('-', pair)
+  let baseAsset = pairList[0]
+  let quoteAsset = pairList[1]
+  let symbolDelimiter = ''
+  let exchangeSymbols = []
+
+  if (exchangeName === 'binance') {
+    symbolDelimiter = binance.symbolDelimiter
+    exchangeSymbols = R.map((obj) => obj.symbol, binanceSymbols)
+  } else {
+    throw new Error('exchange unavailable')
+  }
+
+  let baseAlternatives = Normalizr.denormalize._currency(baseAsset)
+  let quoteAlternatives = Normalizr.denormalize._currency(quoteAsset)
+
+  let denormalizedPair
+  for (let i = 0; i < baseAlternatives.length; i++) {
+    let currentBaseAsset = baseAlternatives[i]
+
+    for (let j = 0; j < quoteAlternatives.length; j++) {
+      let currentQuoteAsset = quoteAlternatives[j]
+
+      if (R.indexOf(`${currentBaseAsset}${symbolDelimiter}${currentQuoteAsset}`, exchangeSymbols) > -1) {
+        denormalizedPair = `${currentBaseAsset}${symbolDelimiter}${currentQuoteAsset}`
+        break
+      }
+    }
+
+    if (denormalizedPair) {
+      break
+    }
+  }
+
+  return denormalizedPair || pair
 }
 
 module.exports = Normalizr

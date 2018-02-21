@@ -8,6 +8,7 @@ const Binance = () => {}
 
 Binance.BASE_URL = 'https://api.binance.com'
 Binance.exchangeInfo = '/api/v1/exchangeInfo'
+Binance.symbolDelimiter = ''
 
 Binance.downloadSymbols = async () => {
   const url = `${Binance.BASE_URL}${Binance.exchangeInfo}`
