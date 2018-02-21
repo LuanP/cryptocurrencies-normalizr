@@ -28,6 +28,14 @@ describe('cryptocurrencies-normalizr', () => {
       done()
     })
 
+    it('sends a pair without delimiter and without an exchange name', (done) => {
+      const fn = () => Normalizer.pair('MIOTABTC')
+
+      assert.throws(fn, Error, 'you should provide at least the delimiter or the exchange name')
+
+      done()
+    })
+
     it('sends a pair without delimiter and with an exchange name, but it does not exist in the exchange', (done) => {
       const fn = () => Normalizer.pair('MIOTABTC', null, 'binance')
 

@@ -28,6 +28,10 @@ Normalizr.pair = (pair, delimiter, exchangeName) => {
     throw new Error('you must inform a pair to be normalized')
   }
 
+  if (pair && !delimiter && !exchangeName) {
+    throw new Error('you should provide at least the delimiter or the exchange name')
+  }
+
   if (delimiter) {
     if (pair.indexOf(delimiter) <= -1) {
       throw new Error(`the pair ${pair} does not contain the delimiter "${delimiter}"`)
