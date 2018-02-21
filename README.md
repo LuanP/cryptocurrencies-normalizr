@@ -4,12 +4,15 @@ Exchange Cryptocurrencies Normalizr
 [![build status](https://gitlab.com/x-data/x-cryptocurrencies-normalizr/badges/master/build.svg)](https://gitlab.com/x-data/x-cryptocurrencies-normalizr/commits/master)
 [![coverage](https://gitlab.com/x-data/x-cryptocurrencies-normalizr/badges/master/coverage.svg?job=test)](https://gitlab.com/x-data/x-cryptocurrencies-normalizr/commits/master)
 
-A normalizer for cryptocurrency pairs and symbols
+A normalizer/denormalizer for cryptocurrency pairs and symbols
 
 With this library you can normalize a pair or a currency symbol
 
 A pair: `BCC_ETH`
 A currency: `BTC`
+
+Normalize
+---------
 
 Pair usage example:
 
@@ -30,12 +33,6 @@ The first parameter is the pair (`BCC_ETH`, `BCY/XBC`)
 The second parameter is the delimiter that separates each pair (`_`, `/`)
 The third parameter is optional if a delimiter is provided and exists in the given pair, if there is no delimiter to separate the pair, this parameter becomes required.
 
-Currently allowed exchange names:
-
-| Exchange name |
-|---------------|
-| binance       |
-
 Currency usage example:
 
     Normalize = require('x-cryptocurrencies-normalizr')
@@ -46,6 +43,26 @@ It will output:
 
     BCH
     BTC
+
+Denormalize
+-----------
+
+The denormalization requires the pair and the exchange name
+
+Usage example:
+
+    Normalize = require('x-cryptocurrencies-normalizr')
+    Normalize.denormalize.pair('BCH-BTC', 'binance')
+
+It will output the pair in the exchange:
+
+    BCCBTC
+
+Currently allowed exchange names:
+
+| Exchange name |
+|---------------|
+| binance       |
 
 Below you can see a table with the known alternatives
 for symbols.

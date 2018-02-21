@@ -81,7 +81,7 @@ Normalizr.currency = (currency) => {
 
 Normalizr.denormalize = () => {}
 
-Normalizr.denormalize._currency = (currency) => {
+Normalizr.currencyAlternatives = (currency) => {
   /*
    * it resolves with the currency alternatives
   * */
@@ -100,6 +100,10 @@ Normalizr.denormalize._currency = (currency) => {
 }
 
 Normalizr.denormalize.pair = (pair, exchangeName) => {
+  if (!pair) {
+    throw new Error('inform a pair to be denormalized')
+  }
+
   if (!exchangeName) {
     throw new Error('impossible to denormalize without exchange name')
   }
@@ -117,8 +121,8 @@ Normalizr.denormalize.pair = (pair, exchangeName) => {
     throw new Error('exchange unavailable')
   }
 
-  let baseAlternatives = Normalizr.denormalize._currency(baseAsset)
-  let quoteAlternatives = Normalizr.denormalize._currency(quoteAsset)
+  let baseAlternatives = Normalizr.currencyAlternatives(baseAsset)
+  let quoteAlternatives = Normalizr.currencyAlternatives(quoteAsset)
 
   let denormalizedPair
   for (let i = 0; i < baseAlternatives.length; i++) {

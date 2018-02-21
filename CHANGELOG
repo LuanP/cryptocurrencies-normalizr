@@ -1,0 +1,5 @@
+2018-02-21
+* added denormalize function tests
+
+2018-02-20
+* added a denormalize function to return the exchange pair given
