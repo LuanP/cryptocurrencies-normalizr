@@ -22,7 +22,7 @@
     "cryptocurrency"
   ],
   "author": "Luan Pablo, Adriel Pereira",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://gitlab.com/x-data/x-cryptocurrencies-normalizr/issues"
   },
