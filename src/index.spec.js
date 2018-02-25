@@ -62,7 +62,7 @@ describe('cryptocurrencies-normalizr', () => {
       })
 
       it('sends an unavailable exchange name and throws Error', (done) => {
-        const fn = () => Normalizer.pair('BTCLTC', null, 'bittrex')
+        const fn = () => Normalizer.pair('BTCLTC', null, 'unavailable')
 
         assert.throws(fn, Error, 'exchange unavailable')
 

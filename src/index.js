@@ -2,7 +2,9 @@ const R = require('ramda')
 
 const mapping = require('./utils/mapping')
 const binance = require('./utils/binance/binance')
+const bittrex = require('./utils/bittrex/bittrex')
 const binanceSymbols = require('./utils/binance/symbols')
+const bittrexSymbols = require('./utils/bittrex/symbols')
 
 const Normalizr = () => {
 }
@@ -44,18 +46,21 @@ Normalizr.pair = (pair, delimiter, exchangeName) => {
   }
 
   if (exchangeName && (baseAsset === undefined || quoteAsset === undefined)) {
+    let foundSymbol
     if (exchangeName === 'binance') {
-      const foundSymbol = R.find(R.propEq('symbol', pair))(binanceSymbols)
-
-      if (!foundSymbol) {
-        throw new Error(`the pair ${pair} does not exist in the exchange ${exchangeName}`)
-      }
-
-      baseAsset = foundSymbol.baseAsset
-      quoteAsset = foundSymbol.quoteAsset
+      foundSymbol = R.find(R.propEq('symbol', pair))(binanceSymbols)
+    } else if (exchangeName === 'bittrex') {
+      foundSymbol = R.find(R.propEq('symbol', pair))(bittrexSymbols)
     } else {
       throw new Error('exchange unavailable')
     }
+
+    if (!foundSymbol) {
+      throw new Error(`the pair ${pair} does not exist in the exchange ${exchangeName}`)
+    }
+
+    baseAsset = foundSymbol.baseAsset
+    quoteAsset = foundSymbol.quoteAsset
   }
 
   const normalizedBaseAsset = Normalizr.currency(baseAsset)
@@ -117,6 +122,9 @@ Normalizr.denormalize.pair = (pair, exchangeName) => {
   if (exchangeName === 'binance') {
     symbolDelimiter = binance.symbolDelimiter
     exchangeSymbols = R.map((obj) => obj.symbol, binanceSymbols)
+  } else if (exchangeName === 'bittrex') {
+    symbolDelimiter = bittrex.symbolDelimiter
+    exchangeSymbols = R.map((obj) => obj.symbol, bittrexSymbols)
   } else {
     throw new Error('exchange unavailable')
   }
