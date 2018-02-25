@@ -63,6 +63,7 @@ Currently allowed exchange names:
 | Exchange name |
 |---------------|
 | binance       |
+| bittrex       |
 
 Below you can see a table with the known alternatives
 for symbols.
