@@ -6,6 +6,16 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [2.0.0] - 2018-03-14
+### Added
+* denormalize based on exchange template symbol
+
+### Changed
+* template symbol format from `baseAsset-quoteAsset` to `quoteAsset-baseAsset`
+
+### Fixed
+* bittrex symbols
+
 ## [1.1.1] - 2018-02-26
 ### Added
 * bittrex to README
