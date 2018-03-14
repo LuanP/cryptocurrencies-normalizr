@@ -24,7 +24,7 @@ describe('cryptocurrencies-normalizr', () => {
       it('sends a pair without delimiter and with an exchange name', (done) => {
         const pair = Normalizer.pair('BNBBTC', null, 'binance')
 
-        assert.strictEqual(pair, 'BNB-BTC', 'returned normalized pair')
+        assert.strictEqual(pair, 'BTC-BNB', 'returned normalized pair')
 
         done()
       })
@@ -107,7 +107,9 @@ describe('cryptocurrencies-normalizr', () => {
 
   describe('denormalizer', () => {
     it('successfully denormalizes a binance pair', (done) => {
-      const pair = Normalizer.denormalize.pair('BCH-BTC', 'binance')
+      console.log('before')
+      const pair = Normalizer.denormalize.pair('BTC-BCH', 'binance')
+      console.log('after')
 
       assert.strictEqual(pair, 'BCCBTC', 'binance denormalized pair')
       done()

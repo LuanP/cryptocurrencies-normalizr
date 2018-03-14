@@ -41,8 +41,8 @@ Normalizr.pair = (pair, delimiter, exchangeName) => {
     }
 
     let assets = R.split(delimiter, pair)
-    baseAsset = assets[0]
-    quoteAsset = assets[1]
+    quoteAsset = assets[0]
+    baseAsset = assets[1]
   }
 
   if (exchangeName && (baseAsset === undefined || quoteAsset === undefined)) {
@@ -66,7 +66,7 @@ Normalizr.pair = (pair, delimiter, exchangeName) => {
   const normalizedBaseAsset = Normalizr.currency(baseAsset)
   const normalizedQuoteAsset = Normalizr.currency(quoteAsset)
 
-  return `${normalizedBaseAsset}-${normalizedQuoteAsset}`
+  return `${normalizedQuoteAsset}-${normalizedBaseAsset}`
 }
 
 Normalizr.currency = (currency) => {
@@ -114,16 +114,16 @@ Normalizr.denormalize.pair = (pair, exchangeName) => {
   }
 
   let pairList = R.split('-', pair)
-  let baseAsset = pairList[0]
-  let quoteAsset = pairList[1]
-  let symbolDelimiter = ''
+  let quoteAsset = pairList[0]
+  let baseAsset = pairList[1]
   let exchangeSymbols = []
+  let symbolTemplate = ''
 
   if (exchangeName === 'binance') {
-    symbolDelimiter = binance.symbolDelimiter
+    symbolTemplate = `base${binance.symbolDelimiter}quote`
     exchangeSymbols = R.map((obj) => obj.symbol, binanceSymbols)
   } else if (exchangeName === 'bittrex') {
-    symbolDelimiter = bittrex.symbolDelimiter
+    symbolTemplate = `quote${bittrex.symbolDelimiter}base`
     exchangeSymbols = R.map((obj) => obj.symbol, bittrexSymbols)
   } else {
     throw new Error('exchange unavailable')
@@ -138,9 +138,12 @@ Normalizr.denormalize.pair = (pair, exchangeName) => {
 
     for (let j = 0; j < quoteAlternatives.length; j++) {
       let currentQuoteAsset = quoteAlternatives[j]
+      let currentSymbol = symbolTemplate
+        .replace('quote', currentQuoteAsset)
+        .replace('base', currentBaseAsset)
 
-      if (R.indexOf(`${currentBaseAsset}${symbolDelimiter}${currentQuoteAsset}`, exchangeSymbols) > -1) {
-        denormalizedPair = `${currentBaseAsset}${symbolDelimiter}${currentQuoteAsset}`
+      if (R.indexOf(currentSymbol, exchangeSymbols) > -1) {
+        denormalizedPair = currentSymbol
         break
       }
     }

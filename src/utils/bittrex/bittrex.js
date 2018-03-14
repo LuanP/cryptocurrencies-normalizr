@@ -30,8 +30,8 @@ Bittrex.downloadSymbols = async () => {
         }
 
         availableSymbols.push({
-          baseAsset: symbol.BaseCurrency,
-          quoteAsset: symbol.MarketCurrency,
+          baseAsset: symbol.MarketCurrency,
+          quoteAsset: symbol.BaseCurrency,
           symbol: symbol.MarketName
         })
       }
