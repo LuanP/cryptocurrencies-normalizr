@@ -5,6 +5,7 @@ const binance = require('./utils/binance/binance')
 const bittrex = require('./utils/bittrex/bittrex')
 const binanceSymbols = require('./utils/binance/symbols')
 const bittrexSymbols = require('./utils/bittrex/symbols')
+const Match = require('./utils/match')
 
 const Normalizr = () => {
 }
@@ -154,6 +155,10 @@ Normalizr.denormalize.pair = (pair, exchangeName) => {
   }
 
   return denormalizedPair || pair
+}
+
+Normalizr.findMatches = () => {
+  return Match.findMatches()
 }
 
 module.exports = Normalizr

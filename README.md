@@ -16,7 +16,7 @@ Normalize
 
 Pair usage example:
 
-    Normalize = require('x-cryptocurrencies-normalizr')
+    const Normalize = require('x-cryptocurrencies-normalizr')
     Normalize.pair('BCC_ETH', '_')
     Normalize.pair('BCY/XBT', '/')
     Normalize.pair('BTCUSDT', '', 'binance')
@@ -35,7 +35,7 @@ The third parameter is optional if a delimiter is provided and exists in the giv
 
 Currency usage example:
 
-    Normalize = require('x-cryptocurrencies-normalizr')
+    const Normalize = require('x-cryptocurrencies-normalizr')
     Normalize.currency('BCC')
     Normalize.currency('XBT')
 
@@ -51,12 +51,22 @@ The denormalization requires the pair and the exchange name
 
 Usage example:
 
-    Normalize = require('x-cryptocurrencies-normalizr')
+    const Normalize = require('x-cryptocurrencies-normalizr')
     Normalize.denormalize.pair('BCH-BTC', 'binance')
 
 It will output the pair in the exchange:
 
     BCCBTC
+
+Find matches
+------------
+
+It's possible to find matches between the exchange symbols, here's an example:
+
+    const Match = require('x-cryptocurrencies-normalizr/utils/match')
+    const matches = Match.findMatches()
+
+The matches will be returned in an array with normalized symbols.
 
 Currently allowed exchange names:
 
