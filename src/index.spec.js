@@ -107,9 +107,7 @@ describe('cryptocurrencies-normalizr', () => {
 
   describe('denormalizer', () => {
     it('successfully denormalizes a binance pair', (done) => {
-      console.log('before')
       const pair = Normalizer.denormalize.pair('BTC-BCH', 'binance')
-      console.log('after')
 
       assert.strictEqual(pair, 'BCCBTC', 'binance denormalized pair')
       done()
