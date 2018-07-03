@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/x-data/x-cryptocurrencies-normalizr"
+    "url": "git+https://github.com/LuanP/cryptocurrencies-normalizr"
   },
   "keywords": [
     "normalizer",
@@ -24,17 +24,17 @@
   "author": "Luan Pablo, Adriel Pereira",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://gitlab.com/x-data/x-cryptocurrencies-normalizr/issues"
+    "url": "https://github.com/LuanP/cryptocurrencies-normalizr/issues"
   },
-  "homepage": "https://gitlab.com/x-data/x-cryptocurrencies-normalizr#README",
+  "homepage": "https://github.com/LuanP/cryptocurrencies-normalizr#README",
   "dependencies": {
     "axios": "^0.17.1",
     "chalk": "^2.3.1",
     "ramda": "^0.25.0"
   },
   "engines": {
-    "node": "8.9.4",
-    "npm": "5.6.0"
+    "node": "8.11.3",
+    "npm": "6.1.0"
   },
   "standard": {
     "parser": "babel-eslint",
@@ -74,7 +74,7 @@
     "husky": "^0.14.3",
     "mocha": "^5.0.1",
     "mocha-lcov-reporter": "^1.3.0",
-    "nyc": "^11.4.1",
+    "nyc": "^13.0.0",
     "should": "^13.2.1",
     "sinon": "^4.3.0",
     "snazzy": "^7.0.0",

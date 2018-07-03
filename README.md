@@ -1,5 +1,5 @@
-Exchange Cryptocurrencies Normalizr
-===================================
+Cryptocurrencies Normalizr
+==========================
 
 [![build status](https://gitlab.com/x-data/x-cryptocurrencies-normalizr/badges/master/build.svg)](https://gitlab.com/x-data/x-cryptocurrencies-normalizr/commits/master)
 [![coverage](https://gitlab.com/x-data/x-cryptocurrencies-normalizr/badges/master/coverage.svg?job=test)](https://gitlab.com/x-data/x-cryptocurrencies-normalizr/commits/master)
@@ -16,7 +16,7 @@ Normalize
 
 Pair usage example:
 
-    const Normalize = require('x-cryptocurrencies-normalizr')
+    const Normalize = require('cryptocurrencies-normalizr')
     Normalize.pair('BCC_ETH', '_')
     Normalize.pair('BCY/XBT', '/')
     Normalize.pair('BTCUSDT', '', 'binance')
@@ -35,7 +35,7 @@ The third parameter is optional if a delimiter is provided and exists in the giv
 
 Currency usage example:
 
-    const Normalize = require('x-cryptocurrencies-normalizr')
+    const Normalize = require('cryptocurrencies-normalizr')
     Normalize.currency('BCC')
     Normalize.currency('XBT')
 
@@ -51,7 +51,7 @@ The denormalization requires the pair and the exchange name
 
 Usage example:
 
-    const Normalize = require('x-cryptocurrencies-normalizr')
+    const Normalize = require('cryptocurrencies-normalizr')
     Normalize.denormalize.pair('BCH-BTC', 'binance')
 
 It will output the pair in the exchange:
@@ -63,7 +63,7 @@ Find matches
 
 It's possible to find matches between the exchange symbols, here's an example:
 
-    const Normalizr = require('x-cryptocurrencies-normalizr')
+    const Normalizr = require('cryptocurrencies-normalizr')
     const matches = Normalizr.findMatches()
 
 The matches will be returned in an array with normalized symbols.
