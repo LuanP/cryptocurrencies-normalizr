@@ -1,8 +1,8 @@
 Cryptocurrencies Normalizr
 ==========================
 
-![Build status](https://img.shields.io/circleci/project/github/luanp/cryptocurrencies-normalizr.svg)
-![Coveralls](https://img.shields.io/coveralls/github/luanp/cryptocurrencies-normalizr.svg)
+![Build status](https://img.shields.io/circleci/project/github/LuanP/cryptocurrencies-normalizr.svg)
+![Coveralls](https://img.shields.io/coveralls/github/LuanP/cryptocurrencies-normalizr.svg)
 
 A normalizer/denormalizer for cryptocurrency pairs and symbols
 
