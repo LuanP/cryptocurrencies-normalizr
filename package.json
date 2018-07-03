@@ -1,5 +1,5 @@
 {
-  "name": "x-cryptocurrencies-normalizr",
+  "name": "cryptocurrencies-normalizr",
   "version": "2.1.0",
   "description": "A normalizer for cryptocurrency symbols and pairs",
   "main": "src/index.js",
